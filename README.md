@@ -49,7 +49,7 @@ Click Show Diff to compare current content with the latest commit.
 -Voice Commands
 Click Voice Command and speak operations like init, add, update, commit, or revert.
 
-## 💡Technical Details
+#💡Technical Details
 ###Backend (C++)
 Handles core VCS operations
 
@@ -59,7 +59,7 @@ Timestamp-based commit system
 
 Diff calculation algorithms
 
-###Frontend (Python)
+#Frontend (Python)
 Modern GUI using CustomTkinter
 
 Real-time file content editing
@@ -68,7 +68,7 @@ Voice recognition integration
 
 Interactive diff visualization
 
-##🌟 Planned Features / Improvements
+#🌟 Planned Features / Improvements
 ->Branching and merging support
 
 ->Better diff visualization with syntax highlighting
