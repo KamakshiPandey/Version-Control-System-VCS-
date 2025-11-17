@@ -6,6 +6,14 @@ The Python GUI offers a modern interface with panels for **repositories**, **fil
 
 This project demonstrates **core version control concepts**, **file management**, and integration of **GUI with backend logic**, making it ideal for beginners to explore **VCS functionality** and **interactive desktop applications**.
 
+## 🛠️ Installation
+
+### 1. Clone the Repository
+```bash
+https://github.com/KamakshiPandey/Version-Control-System-VCS-.git
+cd version-control-system
+```
+
 ## 🚀 Features
 
 - ✅ **Repository Management**: Initialize and manage multiple repositories
@@ -60,9 +68,17 @@ Voice recognition integration
 
 Interactive diff visualization
 
-## 🛠️ Installation
+##🌟 Planned Features / Improvements
+->Branching and merging support
 
-### 1. Clone the Repository
-```bash
-https://github.com/KamakshiPandey/Version-Control-System-VCS-.git
-cd version-control-system
+->Better diff visualization with syntax highlighting
+
+->Cross-platform support (Linux/macOS)
+
+->Undo/redo functionality in the workspace
+
+->Save voice command history
+
+->Cloud Integration: Sync with remote repositories
+
+->Collaboration: Multi-user support with conflict resolution
