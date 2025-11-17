@@ -21,7 +21,8 @@ This project demonstrates **core version control concepts**, **file management**
 - Python 3.7+
 - C++ Compiler (GCC, MinGW, or MSVC)
 - Microphone (for voice commands)
-## Usage
+  
+## ⚡Usage
 -Open or Create a Repository
 Enter a repository name in the top input field and click Open/Create Repository.
 
@@ -40,9 +41,28 @@ Click Show Diff to compare current content with the latest commit.
 -Voice Commands
 Click Voice Command and speak operations like init, add, update, commit, or revert.
 
+## 💡Technical Details
+Backend (C++)
+Handles core VCS operations
+
+File version management
+
+Timestamp-based commit system
+
+Diff calculation algorithms
+
+Frontend (Python)
+Modern GUI using CustomTkinter
+
+Real-time file content editing
+
+Voice recognition integration
+
+Interactive diff visualization
+
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/version-control-system.git
+https://github.com/KamakshiPandey/Version-Control-System-VCS-.git
 cd version-control-system
