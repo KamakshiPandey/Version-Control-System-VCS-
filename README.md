@@ -23,6 +23,18 @@ This project demonstrates **core version control concepts**, **file management**
 - Python 3.7+
 - C++ Compiler (GCC, MinGW, or MSVC)
 - Microphone (for voice commands)
+## Project Structure
+version-control-system/
+│
+├── vcs_app.py                 # Python GUI frontend
+├── init.cpp                   # C++ backend for VCS operations
+├── myvcs.exe                  # Compiled C++ executable (Windows)
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+└── icons/                     # GUI icons and assets
+    ├── icons8-page-64.png     # File icon
+    ├── icons8-voice-50.png    # Voice command icon
+    └── icons8-change.gif      # Diff visualization icon
 
 ## 🛠️ Installation
 
