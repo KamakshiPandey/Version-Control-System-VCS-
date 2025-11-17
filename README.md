@@ -6,8 +6,6 @@ The Python GUI offers a modern interface with panels for **repositories**, **fil
 
 This project demonstrates **core version control concepts**, **file management**, and integration of **GUI with backend logic**, making it ideal for beginners to explore **VCS functionality** and **interactive desktop applications**.
 
-![Version Control System GUI](icons/icons8-change.gif)
-
 ## 🚀 Features
 
 - ✅ **Repository Management**: Initialize and manage multiple repositories
@@ -23,18 +21,24 @@ This project demonstrates **core version control concepts**, **file management**
 - Python 3.7+
 - C++ Compiler (GCC, MinGW, or MSVC)
 - Microphone (for voice commands)
-## Project Structure
-version-control-system/
-│
-├── vcs_app.py                 # Python GUI frontend
-├── init.cpp                   # C++ backend for VCS operations
-├── myvcs.exe                  # Compiled C++ executable (Windows)
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-└── icons/                     # GUI icons and assets
-    ├── icons8-page-64.png     # File icon
-    ├── icons8-voice-50.png    # Voice command icon
-    └── icons8-change.gif      # Diff visualization icon
+## Usage
+-Open or Create a Repository
+Enter a repository name in the top input field and click Open/Create Repository.
+
+-Add or Update Files
+Enter the file name and click Add File or Update Content.
+
+-Commit Changes
+Edit content in the workspace and click Commit to save a version with a timestamp.
+
+-Revert Files
+Select a timestamp from the dropdown and click Revert.
+
+-View File Differences
+Click Show Diff to compare current content with the latest commit.
+
+-Voice Commands
+Click Voice Command and speak operations like init, add, update, commit, or revert.
 
 ## 🛠️ Installation
 
