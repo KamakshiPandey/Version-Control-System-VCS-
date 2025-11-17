@@ -1,40 +1,15 @@
 # Version Control System (VCS) with GUI
 
-A simple **Version Control System** built in **C++** with a **Python GUI frontend** using `customtkinter`.  
-This project allows you to create repositories, add/update files, commit versions, revert files to previous commits, view file differences, and even execute basic commands via **voice input**.
+A lightweight **Version Control System** built with a **C++ backend** and a **Python GUI frontend** using `customtkinter`. This project enables users to **create repositories**, **add/update files**, **commit changes with timestamped versions**, and **revert files** to previous commits. It also provides a **diff feature** to compare the current file content with the latest committed version.
 
----
+The Python GUI offers a modern interface with panels for **repositories**, **files**, **commit history**, and an **editable workspace**. Users receive **real-time suggestions** and can perform common VCS operations via **voice commands** (`init`, `add`, `update`, `commit`, `revert`).
 
-## Features
-
-- Initialize a repository (`init`)
-- Add files to the repository (`add`)
-- Update file content (`update`)
-- Commit files with timestamped versions (`commit`)
-- Revert files to a previous version (`revert`)
-- Compare current file content with the latest committed version (`diff`)
-- Voice command support for common operations (`init`, `add`, `update`, `commit`, `revert`)
-- Modern GUI interface with **customtkinter**
-
----
-
-## Technologies Used
-
-- **Backend:** C++ (VCS logic)
-- **Frontend:** Python 3.13
-  - `customtkinter` for GUI
-  - `tkinter` for widgets
-  - `PIL` (Pillow) for image handling
-  - `speech_recognition` for voice commands
-  - `difflib` for diff functionality
-- **File System:** Local directories and timestamped commits
+This project demonstrates **core version control concepts**, **file management**, and integration of **GUI with backend logic**, making it ideal for beginners to explore **VCS functionality** and **interactive desktop applications**.
 
 ---
 
 ## Installation
 
-### 1. Clone the repository
-
+1. **Install Python dependencies**  
 ```bash
-git clone https://github.com/yourusername/version-control-system.git
-cd version-control-system
+pip install customtkinter pillow SpeechRecognition
